@@ -27,6 +27,7 @@
     "galio-framework": "^0.7.1",
     "prop-types": "^15.7.2",
     "react": "16.13.1",
+    "socket.io-client": "2.1.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-39.0.3.tar.gz",
     "react-native-gesture-handler": "~1.7.0",
     "react-native-maps": "^0.27.1",

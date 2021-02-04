@@ -13,7 +13,7 @@ const [lng ,setLng] = useState(32.622872)
 
 return(
 
-    <MapView style={styles.map} minZoomLevel={12} maxZoomLevel ={20}>
+    <MapView style={styles.map} minZoomLevel={6} maxZoomLevel ={20}>
     
 
             <MarkerComponent lat={lat} lng = {lng} />
