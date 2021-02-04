@@ -1,6 +1,7 @@
 import React from "react";
 import { StyleSheet, Dimensions } from "react-native";
 import { Block, theme, Text } from "galio-framework";
+import {Map} from '../components/Map' ; 
 
 const { width } = Dimensions.get("screen");
 
@@ -11,6 +12,7 @@ class Home extends React.Component {
     return (
       <Block flex center style={styles.home}>
       
+      <Map />
       </Block>
     );
   }
