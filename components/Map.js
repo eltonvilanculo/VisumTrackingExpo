@@ -5,7 +5,7 @@ import {getInitialState , onRegionChange} from '../controllers/map.controller'
 import {MarkerComponent} from './Marker' ; 
 
 
-export const Map =({region , onRegionChange})=>{
+export const Map =({latitude , longitude})=>{
 const [initialState, setInitialState] = useState(getInitialState)
 
 const [lat ,setLat] = useState(-25.883276)
@@ -16,7 +16,7 @@ return(
     <MapView style={styles.map} minZoomLevel={6} maxZoomLevel ={20}>
     
 
-            <MarkerComponent lat={lat} lng = {lng} />
+            <MarkerComponent lat={latitude} lng = {longitude} />
     </MapView>
 )
 }

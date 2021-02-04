@@ -24,10 +24,10 @@
     "expo": "^39.0.0",
     "expo-asset": "~8.2.0",
     "expo-font": "~8.3.0",
+    "firebase": "^8.2.5",
     "galio-framework": "^0.7.1",
     "prop-types": "^15.7.2",
     "react": "16.13.1",
-    "socket.io-client": "2.1.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-39.0.3.tar.gz",
     "react-native-gesture-handler": "~1.7.0",
     "react-native-maps": "^0.27.1",
@@ -35,7 +35,8 @@
     "react-native-reanimated": "~1.13.0",
     "react-native-safe-area-context": "3.1.4",
     "react-native-screens": "~2.10.1",
-    "react-native-svg": "12.1.0"
+    "react-native-svg": "12.1.0",
+    "socket.io-client": "2.1.1"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
